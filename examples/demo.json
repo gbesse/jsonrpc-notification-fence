@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "jsonrpc": "2.0",
+      "method": "echo",
+      "params": [
+        "notify"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "echo",
+      "params": [
+        "call"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": null,
+      "method": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Séparer notifications et appels JSON-RPC sur un vrai flux', 'en': 'Separate JSON-RPC notifications and calls on an actual stream', 'es': 'Separar notificaciones y llamadas JSON-RPC en un flujo real'}

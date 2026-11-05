@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonrpc-notification-fence"
+version = "0.1.0a1"
+description = "FR: Séparer notifications et appels JSON-RPC sur un vrai flux | EN: Separate JSON-RPC notifications and calls on an actual stream | ES: Separar notificaciones y llamadas JSON-RPC en un flujo real"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+jsonrpc-notification-fence = "jsonrpc_notification_fence.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["jsonrpc_notification_fence*"]
